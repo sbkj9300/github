@@ -1,6 +1,6 @@
 #include <stdio.h>;
 
 int main(void){
-    puts("あいうえお");
+    puts("あいうえ");
     return 0;
 }
