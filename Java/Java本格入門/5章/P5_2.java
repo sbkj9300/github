@@ -8,10 +8,10 @@ public class P5_2{
         Stream<String> stream = Arrays.stream(arrays);
         stream.forEach(System.out::println);
 
-        IntStream istream = IntStream.range(1,5);
+        IntStream istream = IntStream.range(0,3);
         
         istream.forEach(
-            i -> {System.out.println(x);}
+            i -> {System.out.println(arrays[i]);}
         );
     }
 }
